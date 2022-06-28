@@ -1,0 +1,43 @@
+git es un controlador de versiones 
+
+- para que sirve?
+facilitar el desarrollo y mantenimuento de las aplicaciones 
+-como facilita el desarrollo y mantenimiento de aplicaciones?
+guardando un registro de todos los cambios que sufran los archivos
+
+
+perimite la restauracion si en algun archivo hay algun error 
+
+permite que se pueda trabajar en equipo sobre un mismo proyectos 
+con las ramas, cada programador puede guardar una version independiente 
+las ramas despues de dividir el trabajo une en un unico archivo
+
+
+comandos 
+-git init: iniciamos para comenzar el proyecto, crea dos areas de ensayos, area local y repositorio. 
+-git add: con este hacemos el segimiento de los archivos con esto llevamos del direcctorio al area de ensayo al archivo elegido,o todo el proyecto.
+-git commit: aqui hacemos el respaldo en el repositorio
+-git status -s: despliega una lista de los archivos del proyecto
+-git config --global user.name "ajsjas": para inicar sesion 
+-git log --oneline: muestra los commits 
+-git reset --hard: restauracion del archivo
+-gid add .: agregar todos los archivos del proyecto
+-git commit -am: añade y respalda en el repositorio dos funsiones add y commit
+-git push origin master: error para iniciar sesion al subir repositorio
+
+
+TAGS: las etiquetas nos sirven para crear versiones
+
+-git pull: para traer los cambios hechos desde github agregando el link del repositorio
+-git tag: para crear la tag añadiendo nombre de version y descripcion entre comillas
+-git push --tags: para enviar las etiquetas a github
+-git clone + link: recuperar el repositorio
+
+RAMAS o BRANCH
+division de la rama master 
+
+-git branch nombre: crear rama 
+-git branch: lista de ramas 
+-git checkout nombre: para seleccionar la rama en la que se haran los cambios 
+-git merge nombre: para fucionar la rama master con la que se seleccione poniendo el nombre
+
